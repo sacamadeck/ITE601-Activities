@@ -8,7 +8,7 @@ class payroll {
 	private float $salary = 550;
 
 	public function computeNet(): float {
-	return $net + $this->salary - $this->tax;
+	return $net = $this->salary - $this->tax;
 	}
 	public function getEmployeeName() : string {
 	return $this->fname. " " . $this->lname;
